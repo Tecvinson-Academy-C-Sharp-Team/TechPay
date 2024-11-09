@@ -1,0 +1,6 @@
+@TechPay.API_HostAddress = http://localhost:5198
+
+GET {{TechPay.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
