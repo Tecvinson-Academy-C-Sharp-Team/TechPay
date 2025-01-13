@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TechPay.Infrastructure\TechPay.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -4,14 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechPay.Core", "TechPay.Core\TechPay.Core.csproj", "{15F4E51B-3A3B-4470-962E-ABBB9FCF4403}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0937A721-789B-47A1-B186-3E13F2F6B6F4} = {0937A721-789B-47A1-B186-3E13F2F6B6F4}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechPay.Infrastructure", "TechPay.Infrastructure\TechPay.Infrastructure.csproj", "{0937A721-789B-47A1-B186-3E13F2F6B6F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechPay.Infrastructure", "TechPay.Infrastructure\TechPay.Infrastructure.csproj", "{0937A721-789B-47A1-B186-3E13F2F6B6F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechPay.Shared", "TechPay.Shared\TechPay.Shared.csproj", "{DF7508DD-94B3-4EB0-913A-F76BC2CB669D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechPay.Shared", "TechPay.Shared\TechPay.Shared.csproj", "{DF7508DD-94B3-4EB0-913A-F76BC2CB669D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechPay.Web", "TechPay.Web\TechPay.Web.csproj", "{9DFAE68F-4641-4DBC-8482-985763E53283}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechPay.Web", "TechPay.Web\TechPay.Web.csproj", "{9DFAE68F-4641-4DBC-8482-985763E53283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechPay.API", "TechPay.API\TechPay.API.csproj", "{B2A8B47D-D417-4F04-BBDB-1499B58BDA09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechPay.API", "TechPay.API\TechPay.API.csproj", "{B2A8B47D-D417-4F04-BBDB-1499B58BDA09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
